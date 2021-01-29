@@ -6,16 +6,22 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/GameScene.unity
-    guid: d1c3109bdb54ad54c8a2b2838528e640
-  - enabled: 1
     path: Assets/Scenes/MainMenuScene.unity
     guid: b97bf5a1a9a2b7b4980267aa3b2e5d8d
+  - enabled: 1
+    path: Assets/Scenes/GameScene.unity
+    guid: d1c3109bdb54ad54c8a2b2838528e640
   - enabled: 1
     path: Assets/Scenes/EndScreen.unity
     guid: 00d972a9318d0fa439f92521784ff965
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 7ae717d260b00ee409452f2083e8c126,
+      type: 2}
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 5c4f7442c0682cb44bda191409166279,
+      type: 2}
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 36ec966a87ed66e43a686b266ea15bb2,
+      type: 2}
+    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 61ce8a766be408d418fb255df99463a2,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: cb405875ee21adc4cb4f6d4e401cb0ac,
       type: 2}
